@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#315760</color>
+    <color name="colorPrimaryDark">#11333f</color>
+    <color name="colorAccent">#f6931e</color>
+    <color name="ocre">#fef6c8</color>
+    <color name="ocreoscuro">#f6be7b</color>
+    <color name="ocre_trans">#88fef6c8</color>
+</resources>

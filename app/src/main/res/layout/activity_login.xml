@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo1"
+    tools:context=".LoginActivity">
+
+    <TextView
+        style="@style/etiquetas"
+        android:id="@+id/titulo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="casual"
+        android:text="@string/ninjatasks"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/cuentaNueva"
+        style="@style/etiquetas"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="casual"
+        android:text="@string/not_a_shinobi_yet"
+        android:textColor="@color/ocre"
+        android:textSize="15sp"
+        android:onClick="crearCuenta"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titulo"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rectanguloovalado"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/linlay">
+            <android.support.design.widget.TextInputEditText
+                style="@style/cajastexto"
+                android:id="@+id/cajaUser"
+                android:hint="@string/shinobi_name">
+                <requestFocus />
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            style="@style/linlay">
+            <android.support.design.widget.TextInputEditText
+                style="@style/cajastexto"
+                android:id="@+id/cajaPass"
+                android:hint="@string/password_weapon"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/botonLogin"
+        style="@style/botonstyle"
+        android:src="@drawable/kunailogin"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/linearlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="login"/>
+
+</RelativeLayout>

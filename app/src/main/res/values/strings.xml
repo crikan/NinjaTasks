@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NinjaTasks</string>
+    <string name="ninjatasks">NinjaTasks</string>
+    <string name="imagen_de_fondo_1">imagen de fondo 1</string>
+    <string name="mas">+</string>
+    <string name="shinobi_name">Shinobi Name</string>
+    <string name="password_weapon">Password Weapon</string>
+    <string name="not_a_shinobi_yet">Not a shinobi yet?</string>
+    <string name="fondomain">fondoMain</string>
+    <string name="done">Done</string>
+    <string name="mission_accepted">Mission Accepted</string>
+    <string name="mission_accomplished">Mission Accomplished</string>
+</resources>
